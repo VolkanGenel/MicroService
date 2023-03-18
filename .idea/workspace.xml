@@ -4,111 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2538e346-457e-4c88-9619-8fd2680d4826" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiGateWayService/src/main/java/com/volkan/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiGateWayService/src/main/java/com/volkan/controller/FallbackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApiGateWayService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/constants/EndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/dto/request/DoLoginRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/dto/request/RegisterRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/dto/request/UserProfileSaveRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/exception/AuthServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/manager/IUserProfileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/mapper/IAuthMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/rabbitmq/model/SaveAuthModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/rabbitmq/producer/CreateUserProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/repository/IAuthRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/repository/entity/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/java/com/volkan/utility/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AuthMicroService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/volkan/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/api-gateway-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/auth-micro-service-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/elastic-service-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/product-micro-service-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/sales-micro-service-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/user-micro-service-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServerGit/src/main/java/com/volkan/ConfigServerGitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServerGit/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigServerGit/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/ElasticServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/constants/EndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/controller/UserProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/dto/request/AddUserRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/dto/request/BaseRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/exception/ElasticServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/mapper/IUserProfileMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/entity/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/service/UserProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductMicroService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductMicroService/src/main/java/com/volkan/ProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProductMicroService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesMicroService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesMicroService/src/main/java/com/volkan/SalesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesMicroService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/UserProfileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/constants/EndPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/controller/UserProfileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/dto/request/UserProfileSaveRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/exception/UserServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/manager/IElasticServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/mapper/IUserProfileMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/rabbitmq/consumer/CreateUserConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/rabbitmq/model/SaveAuthModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/rabbitmq/producer/CreateUserProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/repository/entity/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/service/UserProfileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/TestAndRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="2538e346-457e-4c88-9619-8fd2680d4826" name="Changes" comment="MicroService" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -384,6 +280,21 @@
       <workItem from="1678687488364" duration="645000" />
       <workItem from="1678688167909" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="MicroService">
+      <created>1679122157835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679122157835</updated>
+    </task>
+    <task id="LOCAL-00002" summary="MicroService">
+      <created>1679122344859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679122344859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +313,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MicroService" />
+    <option name="LAST_COMMIT_MESSAGE" value="MicroService" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java6MicroService$UserProfileApplication.ic" NAME="UserProfileApplication Coverage Results" MODIFIED="1678435096789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
