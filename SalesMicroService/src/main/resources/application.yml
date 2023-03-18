@@ -1,0 +1,27 @@
+server:
+  port: 9092
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/SalesDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+# !!!!! DİKKAT !!!!!
+# Key/Value kullanımında : dan sonra mutlaka boşluk bırakın
+# key:deger --> yanlış kullanım çünkü : dan sonra boşluk olmadan yazılmış
+# key: deger --> doğru kullanım
+# ÖNEMLİ
+# Şifre gibi başkalarının görmesini istemediğiniz bilgilerin yml dosyasında dahi tutulması
+# çok sakıncalıdır. Bu nedenle bu bilgilerin gizlenmesi gereklidir. Bu işlemi yapabilmek
+# için EnvironmentVariable - Sistem Ortam Değişkenlerini kullanmak gereklidir.
+authservice:
+  bunu-ben-yazdim:
+    secret-key: ${JAVA_SECRETKEY}
+    issuer: ${JAVA6_ISSUER}

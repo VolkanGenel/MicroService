@@ -1,0 +1,19 @@
+server:
+  port: 9100
+
+spring:
+  security:
+    user:
+      name: muhammethoca
+      password: 12345
+  zipkin:
+    service:
+      name: elastic-service
+    base-url: http://localhost:9411
+    enabled: true
+  elasticsearch:
+    uris: http://localhost:9200
+
+security:
+  secret-key: ${JAVA_SECRETKEY}
+  issuer: ${JAVA6_ISSUER}
