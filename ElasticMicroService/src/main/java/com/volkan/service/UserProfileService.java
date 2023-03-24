@@ -22,6 +22,9 @@ public class UserProfileService extends ServiceManager<UserProfile,String> {
         super(repository);
         this.repository = repository;
     }
+    public Optional<UserProfile> findByAuthId(Long authid) {
+       return repository.findOptionalByAuthid(authid);
+    }
 
     public void saveDto(AddUserRequestDto dto) {
         /**

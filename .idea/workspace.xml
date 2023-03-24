@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2538e346-457e-4c88-9619-8fd2680d4826" name="Changes" comment="MicroService" />
+    <list default="true" id="2538e346-457e-4c88-9619-8fd2680d4826" name="Changes" comment="MicroService">
+      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/ElasticSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/resources/public/mylogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/constants/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/controller/UserProfileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/service/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/service/UserProfileService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679122344859</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MicroService">
+      <created>1679122409895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679122409895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,6 +334,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MicroService" />
     <option name="LAST_COMMIT_MESSAGE" value="MicroService" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/ElasticSecurityConfig.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java6MicroService$UserProfileApplication.ic" NAME="UserProfileApplication Coverage Results" MODIFIED="1678435096789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
