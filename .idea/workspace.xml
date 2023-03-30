@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2538e346-457e-4c88-9619-8fd2680d4826" name="Changes" comment="MicroService">
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/ElasticSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/JwtTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/config/JwtUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/resources/public/mylogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/constants/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/controller/UserProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/controller/UserProfileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/repository/IUserProfileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/service/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticMicroService/src/main/java/com/volkan/service/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateWayService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateWayService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthMicroService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AuthMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigServerGit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServerGit/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/service/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/service/UserProfileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/TestAndRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/java/com/volkan/utility/TestAndRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserProfileMicroService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserProfileMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,39 @@
         <task path="$PROJECT_DIR$/UserProfileMicroService">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ConfigServerGit">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/ApiGateWayService">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Java6MicroService" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java6MicroService" type="f1a62948:ProjectNode" />
+                <item name="ConfigServerGit" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java6MicroService" type="f1a62948:ProjectNode" />
+                <item name="ConfigServerGit" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java6MicroService" type="f1a62948:ProjectNode" />
+                <item name="ConfigServerGit" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -87,7 +114,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;4562e8488949d75eb5613506eb3c8026&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -126,53 +153,10 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ElasticServiceApplication">
-    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volkan.ApiGatewayApplication" />
-      <module name="Java6MicroService.ApiGateWayService.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.volkan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="JAVA_SECRETKEY" value="12345" />
-        <env name="JAVA6_ISSUER" value="JAVA6" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.volkan.AuthServiceApplication" />
-      <module name="Java6MicroService.AuthMicroService.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.volkan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.volkan.ConfigServerApplication" />
-      <module name="Java6MicroService.ConfigServer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.volkan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.Java6MicroService:ConfigServerGit [buildDependents]">
     <configuration name="ConfigServerGitApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <envs>
-        <env name="GIT_JAVA6_KEY" value="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" />
+        <env name="GIT_JAVA6_KEY" value="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" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.volkan.ConfigServerGitApplication" />
       <module name="Java6MicroService.ConfigServerGit.main" />
@@ -203,24 +187,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserProfileApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="JAVA_SECRETKEY" value="12345" />
-        <env name="JAVA6_ISSUER" value="JAVA6" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="com.volkan.UserProfileApplication" />
-      <module name="Java6MicroService.UserProfileMicroService.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.volkan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Java6MicroService:ApiGateWayService [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ApiGateWayService" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="Java6MicroService:UserProfileMicroService [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Java6MicroService:ConfigServerGit [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ConfigServerGit" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Java6MicroService:ConfigServerGit [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ConfigServerGit" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Java6MicroService:UserProfileMicroService [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/UserProfileMicroService" />
@@ -231,7 +261,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Java6MicroService:UserProfileMicroService [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/UserProfileMicroService" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -271,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserProfileApplication" />
-        <item itemvalue="Application.ApiGatewayApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
-        <item itemvalue="Application.AuthServiceApplication" />
-        <item itemvalue="Gradle.Java6MicroService:UserProfileMicroService [clean]" />
+        <item itemvalue="Gradle.Java6MicroService:ConfigServerGit [buildDependents]" />
+        <item itemvalue="Gradle.Java6MicroService:ConfigServerGit [build]" />
+        <item itemvalue="Gradle.Java6MicroService:UserProfileMicroService [buildDependents]" />
+        <item itemvalue="Gradle.Java6MicroService:UserProfileMicroService [build]" />
+        <item itemvalue="Gradle.Java6MicroService:ApiGateWayService [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679122409895</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="MicroService">
+      <created>1679659429076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679659429076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

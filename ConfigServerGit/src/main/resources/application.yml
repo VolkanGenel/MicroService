@@ -11,3 +11,8 @@ spring:
           skip-ssl-validation: true
           username: VolkanGenel
           password: ${GIT_JAVA6_KEY}
+  zipkin:
+    service:
+      name: config-server-git
+    base-url: ${ZIPKIN_URL}
+    enabled: true

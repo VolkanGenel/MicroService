@@ -21,9 +21,9 @@ public class TestAndRun {
          * bu kodu yorum satırına almak doğru olacaktır.
          * çalışması sistemi etkikemeyen durumlarda thread içinde çalıştırmak doğru olacaktır.
          */
-        new Thread(()->{
-            run();
-        });
+//        new Thread(()->{
+//            run();
+//        });
 
     }
 
